@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+  border-radius: 0.5em;
+  background-color: blue;
+  color: white;
+  border: solid 1px blue;
+}
+  
+button:hover{
+  border-radius: 0.5em;
+  background-color: white;
+  color: blue;
+  border: solid 1px blue;
+}
+
+input{
+  border-radius: 0.5em;
+  border: solid 1px blue;
+  padding: 0.5em;
+}
